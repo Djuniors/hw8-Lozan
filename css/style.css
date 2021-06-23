@@ -1,0 +1,166 @@
+@import "reset.css";
+
+h1 {
+    font: 35px Gotham;
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    background-color:#709dca;
+    height: 590px
+
+}
+
+.OpenSans {
+    font: 16px OpenSans;
+    color: white;
+}
+
+
+main .banner input[type] {
+    font: 13px OpenSans;
+    width: 280px;
+    height: 45px;
+    border: 1px solid #709dca;
+    border-radius: 3px;
+
+}
+
+main .banner input[type=submit] {
+background-color: #ffbb42;
+text-transform: uppercase;
+color: white;
+font: 14px OpenSans;
+width: 212px;
+
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .banner .container .row .head {
+padding: 110px 0 35px;
+}
+
+main .banner .container .row form {
+    padding-bottom: 68px;
+}
+
+.slide {
+padding: 25px 0 105px;
+}
+
+main .banner .head02 h2 { 
+    text-transform: uppercase;
+    color: #394b50;
+    font: 30px Gotham;
+    margin: 0;
+}
+
+main article .info .OpenSans {
+    color: #394b50;
+    font: 16px OpenSans;
+    margin-bottom: 90px;
+}
+
+.banner .item {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.banner .item img {
+    float: left;
+    margin: 0px 40px 20px 0px;
+    width: 56px;
+    height: 56px;
+}
+
+.heading {
+    font: 16px Lato;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #394b50;
+}
+
+.font {
+    font: 13px OpenSans;
+    color: #7b7b7b;
+}
+
+.info02 {
+margin-top: 112px;
+background-color: #ffc155;
+display: flex;
+flex-wrap: wrap;
+height: 714px;
+}
+
+.img02 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row02 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 400px 0 80px;
+}
+
+.info02 p {
+    padding-bottom: 15px;
+    font: 13px OpenSans;
+    color: white;
+
+}
+
+.row02 h2 {
+    font: 30px Gotham;
+    text-transform: uppercase;
+    color: white;
+}
+
+.row02 a {
+    font: 14px Lato;
+    border: solid rgb(0, 0, 0) 1px;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 145px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
